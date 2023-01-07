@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --color-pop-shadow: theme('colors.black');
+        --color-pop-shadow-border: theme('colors.black');
+        --width-pop-shadow-border: 0;
+        --size-pop-shadow: 0;
+    }
+}
