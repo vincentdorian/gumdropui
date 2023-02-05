@@ -1,8 +1,8 @@
 module.exports = {
     ":root": {
-        "--color-pop-shadow": "#000",
-        "--color-pop-shadow-border": "#000",
-        "--width-pop-shadow-border": 0,
-        "--size-pop-shadow": 0,
+        "--color-gum-shadow": "#000",
+        "--color-gum-shadow-border": "#000",
+        "--width-gum-shadow-border": 0,
+        "--size-gum-shadow": 0,
     }
 }

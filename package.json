@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "vincendorian",
+  "author": "vincentdorian",
   "license": "MIT",
   "dependencies": {
     "tailwindcss": "^3.2.4"

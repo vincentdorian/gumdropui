@@ -5,14 +5,14 @@ const utilities = require('../dist/utilities')
 
 module.exports = plugin(function ({addUtilities, addBase, theme}) {
     const popShadowColors = Object.entries(flattenColorPalette(theme('colors'))).map(x => {
-        let key1 = '.pop-shadow-'+x[0]
-        let key2 = '.pop-shadow-border-'+x[0]
+        let key1 = '.gum-shadow-'+x[0]
+        let key2 = '.gum-shadow-border-'+x[0]
         return {
             [key1]: {
-                '--color-pop-shadow': x[1]
+                '--color-gum-shadow': x[1]
             },
             [key2]: {
-                '--color-pop-shadow-border': x[1]
+                '--color-gum-shadow-border': x[1]
             }
         }
     })
@@ -30,8 +30,8 @@ module.exports = plugin(function ({addUtilities, addBase, theme}) {
                 '3': '3px'
             },
             colors: {
-                'pop-shadow': 'var(--color-pop-shadow)',
-                'pop-shadow-border': 'var(--color-pop-shadow-border)',
+                'gum-shadow': 'var(--color-gum-shadow)',
+                'gum-shadow-border': 'var(--color-gum-shadow-border)',
             },
             keyframes: {
                 wiggle: {
